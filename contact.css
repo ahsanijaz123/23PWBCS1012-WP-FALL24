@@ -1,0 +1,125 @@
+body {
+    background-image: url("contact.avif");
+    background-size: cover;
+    margin: 0; 
+}
+
+#navbar {
+    background-color: black;
+    height: auto; 
+    border-color: #f08804;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 15px;
+    display: flex; 
+    align-items: center; 
+    padding: 10px 20px; 
+}
+
+#logo {
+    color: #f08804;
+    font-size: 25px;
+    margin-right: auto; 
+}
+
+a {
+    margin-right: 20px; 
+    color: #f08804;
+    text-decoration: none;
+}
+button {
+    background-color: #f08804;
+    color: black; 
+}
+
+footer {
+    background-color: black;
+    color: white;
+    border-color: #f08804;
+    border-width: 5px;
+    border-style: solid;
+    text-align: center;
+    padding: 9px 0; }
+
+#content {
+    background-size: cover;
+    padding: 20px; 
+    text-align: center;
+}
+
+h1 {
+    color: #f08804;
+    margin: 20px 0; 
+}
+
+#contact {
+    opacity: 0.9;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #f08804;
+    padding: 20px; 
+    border-radius: 10px;
+}
+
+input {
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+    
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#b1 {
+    margin-top: 10px; 
+    padding: 10px; 
+    width: 100%;
+}
+
+#social {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 20px; 
+}
+
+#social a {
+    margin: 0 10px;}
+
+
+@media (max-width: 768px) {
+    #contact {
+        width: 80%; 
+        margin: 20px auto;
+    }
+
+    #navbar {
+        flex-direction: column; 
+        align-items: flex-start;
+    }
+
+    a {
+        margin-right: 0; 
+        margin-bottom: 10px; }
+
+    h1 {
+        font-size: 24px; 
+    }
+}
+
+@media (max-width: 480px) {
+    #logo {
+        font-size: 20px; 
+    }
+
+    h1 {
+        font-size: 20px; 
+    }
+
+    #contact {
+        width: 90%; 
+    }
+
+    button {
+        padding: 8px; 
+    }
+}

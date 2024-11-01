@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #f08804;
+}
+
+#navbar {
+    background-color: black;
+    padding: 15px 20px;
+    border-color: #f08804;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 15px;
+    display: flex; 
+    align-items: center;
+    flex-wrap: wrap; }
+
+#logo {
+    color: #f08804;
+    font-size: 25px;
+    margin-right: auto; 
+}
+
+a {
+    margin-right: 20px;
+    color: #f08804;
+    text-decoration: none; 
+}
+
+button {
+    background-color: #f08804;
+    color: black;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    border-color: #f08804;
+    border-width: 10px;
+    border-style: solid;
+    text-align: center;
+    padding: 10px 0; 
+}
+
+h1 {
+    text-align: center;
+    color: #f08804;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: dashed;
+    color: #f08804;
+}
+
+p {
+    text-align: center;
+    color: #f08804;
+}
+
+
+#content {
+    padding: 20px;
+}
+
+#no1, #no2 {
+    margin: 20px auto; 
+    display: block; 
+    width: 90%; 
+    max-width: 400px; 
+    height: 250px;
+    background-size: cover;
+    background-position: center; 
+}
+
+#no1 {
+    background-image: url(warmup.jpg);
+}
+
+#no2 {
+    background-image: url(fit2.jpg);
+}
+
+
+@media (max-width: 768px) {
+    #navbar {
+        flex-direction: column; 
+        align-items: flex-start; 
+    }
+
+    a {
+        margin: 5px 0;
+    }
+
+    #no1, #no2 {
+        width: 100%; 
+        height: 200px; 
+}
+
+@media (max-width: 480px) {
+    #logo {
+        font-size: 20px; 
+    }
+
+    h1 {
+        font-size: 24px; 
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px; 
+    }
+}
+}

@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #f08804;
+}
+
+#navbar {
+    background-color: black;
+    height: auto; 
+    border-color: #f08804;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 10px 20px; 
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    padding-left: 10px;
+    color: #f08804;
+    font-size: 25px;
+    margin-right: auto; 
+}
+
+a {
+    margin-right: 20px;
+    color: #f08804;
+    text-decoration: none;
+}
+
+button {
+    background-color: #f08804;
+    color: black;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    border-color: #f08804;
+    border-width: 5px;
+    border-style: solid;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    color: #f08804;
+}
+
+nav ul li {
+    display: inline; 
+    margin: 0 15px;
+}
+
+nav a {
+    color: #f08804;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 15px;
+    background: #f08804;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+h2 {
+    color: black;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+@media (max-width: 768px) {
+    #navbar {
+        flex-direction: column; 
+        align-items: flex-start;
+    }
+
+    a {
+        margin-right: 0; 
+        margin-bottom: 10px; 
+    }
+
+    main {
+        padding: 10px; 
+    }
+
+    nav ul li {
+        display: block; 
+        margin-bottom: 10px;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 24px; 
+    }
+}
+
+@media (max-width: 480px) {
+    #logo {
+        font-size: 20px; 
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    button {
+        padding: 8px;
+    }
+
+    section {
+        margin-bottom: 20px; 
+    }
+
+    nav ul li {
+        margin: 0; 
+    }
+}
